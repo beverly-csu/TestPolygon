@@ -52,26 +52,26 @@ QRadioButton::indicator {
 }
 
 QRadioButton::indicator::unchecked {
-    image: url(:/images/radiobutton_unchecked.png);
+    image: url(images/1.png);
 }
 
 QRadioButton::indicator:unchecked:hover {
-    image: url(:/images/radiobutton_unchecked_hover.png);
+    image: url(images/1.png);
 }
 
 QRadioButton::indicator:unchecked:pressed {
-    image: url(:/images/radiobutton_unchecked_pressed.png);
+    image: url(images/1.png);
 }
 
 QRadioButton::indicator::checked {
-    image: url(:/images/radiobutton_checked.png);
+    image: url(images/1.png);
 }
 
 QRadioButton::indicator:checked:hover {
-    image: url(:/images/radiobutton_checked_hover.png);
+    image: url(images/1.png);
 }
 
 QRadioButton::indicator:checked:pressed {
-    image: url(:/images/radiobutton_checked_pressed.png);
+    image: url(images/1.png);
 }
 '''
