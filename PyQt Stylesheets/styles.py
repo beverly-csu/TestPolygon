@@ -31,7 +31,6 @@ QPushButton:hover {
 window = '''
 QWidget {
     background-color: #232323;
-    font-family: Roboto;
     font: 14px "Arial";
     color: #F0F0F0;
 }
