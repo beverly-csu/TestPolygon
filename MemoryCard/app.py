@@ -170,10 +170,17 @@ class Window(QWidget):
         self.btn_ok.setText('Начать заново')
         self.lbl_question.setText('')
 
+    def is_checked(self):
+        for btn in self.buttons:
+            if btn.isChecked():
+                return True
+        return False
+
     def button_handler(self):
         text = self.btn_ok.text()
         if text == 'Ответить':
-            self.show_result()
+            if self.is_checked():
+                self.show_result()
         elif text == 'Узнать результат':
             self.show_final_result()
         elif text == 'Начать заново':
