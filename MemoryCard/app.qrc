@@ -1,0 +1,12 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="icons">
+        <file alias="main">img/icon.png</file>
+        <file alias="unchecked">img/unchecked.png</file>
+        <file alias="unchecked-hover">img/unchecked-hover.png</file>
+        <file alias="unchecked-pressed">img/unchecked-pressed.png</file>
+        <file alias="checked">img/checked.png</file>
+        <file alias="checked-hover">img/checked-hover.png</file>
+        <file alias="checked-pressed">img/checked-pressed.png</file>
+    </qresource>
+</RCC>

@@ -3,3 +3,7 @@ PyQt Stylesheets/__pycache__/styles.cpython-310.pyc
 PyQt 2048/__pycache__/core.cpython-310.pyc
 PyQt Designer/__pycache__/calc.cpython-310.pyc
 MemoryCard/__pycache__/style.cpython-310.pyc
+.qt_for_python/rcc/app.py
+MemoryCard/__pycache__/qrc.cpython-310.pyc
+MemoryCard/app.spec
+MemoryCard/build

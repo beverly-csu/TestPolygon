@@ -3,6 +3,7 @@ from PyQt5.QtWidgets import QWidget, QApplication, QPushButton, QRadioButton, QL
 from PyQt5.QtCore import Qt
 from random import shuffle
 import style
+import qrc
 
 
 class Question:
@@ -22,7 +23,8 @@ class Window(QWidget):
         self.setup_style()
 
         self.setWindowTitle('MemoryCard')
-        self.setWindowIcon(QIcon('img/icon.png'))
+        # self.setWindowIcon(QIcon('img/icon.png'))
+        self.setWindowIcon(QIcon(':/icons/main'))
         self.setFixedSize(400, 250)
 
         self.score = 0
@@ -183,7 +185,6 @@ class Window(QWidget):
 
 
 app = QApplication([])
-app.setWindowIcon(QIcon('img/icon.png'))
 window = Window()
 window.show()
 app.exec()

@@ -5,27 +5,27 @@ QRadioButton::indicator {
 }
 
 QRadioButton::indicator::unchecked {
-    image: url(img/unchecked.png);
+    image: url(:/icons/unchecked);
 }
 
 QRadioButton::indicator:unchecked:hover {
-    image: url(img/unchecked-hover.png);
+    image: url(:/icons/unchecked-hover);
 }
 
 QRadioButton::indicator:unchecked:pressed {
-    image: url(img/unchecked-pressed.png);
+    image: url(:/icons/unchecked-pressed);
 }
 
 QRadioButton::indicator::checked {
-   image: url(img/checked.png);
+   image: url(:/icons/checked);
 }
 
 QRadioButton::indicator:checked:hover {
-    image: url(img/checked-hover.png);
+    image: url(:/icons/checked-hover);
 }
 
 QRadioButton::indicator:checked:pressed {
-    image: url(img/checked-pressed.png);
+    image: url(:/icons/checked-pressed);
 }
 '''
 
