@@ -1,3 +1,4 @@
+from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QWidget, QApplication, QPushButton, QRadioButton, QLabel, QGroupBox, QVBoxLayout, QHBoxLayout, QButtonGroup
 from PyQt5.QtCore import Qt
 from random import shuffle
@@ -21,6 +22,7 @@ class Window(QWidget):
         self.setup_style()
 
         self.setWindowTitle('MemoryCard')
+        self.setWindowIcon(QIcon('img/icon.png'))
         self.setFixedSize(400, 250)
 
         self.score = 0
@@ -181,6 +183,7 @@ class Window(QWidget):
 
 
 app = QApplication([])
+app.setWindowIcon(QIcon('img/icon.png'))
 window = Window()
 window.show()
 app.exec()
