@@ -23,7 +23,6 @@ class Window(QWidget):
         self.setup_style()
 
         self.setWindowTitle('MemoryCard')
-        # self.setWindowIcon(QIcon('img/icon.png'))
         self.setWindowIcon(QIcon(':/icons/main'))
         self.setFixedSize(400, 250)
 
