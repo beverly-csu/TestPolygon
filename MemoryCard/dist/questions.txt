@@ -18,3 +18,8 @@ QPushButton
 QAbstractButton
 QRadioButton
 QSimpleButton
+Какой сегодня день недели?
+Суббота
+Пятница
+Август
+Понедельник
