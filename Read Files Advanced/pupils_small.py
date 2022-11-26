@@ -20,7 +20,6 @@ with open('pupils_large.txt', 'r', encoding='utf-8') as file:
             best_pupils.append(pupil)
         amount += 1
         summ += pupil.mark
-        # print(pupil.surname, pupil.name, '-', pupil.mark)
 
 print('\n\nОтличники:')
 for pupil in best_pupils:
