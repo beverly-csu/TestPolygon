@@ -97,6 +97,23 @@ def load_notes():
         list_notes.addItems(notes)
         return notes
 
+def load_notes_1():
+    index = 0
+    while True:
+        try:
+            with open(str(index) + '.txt', 'r', encoding='utf-8') as file:
+                data = file.readlines()
+                text = ''
+                for line in data[1:-1]:
+                    text += line
+                tags = data[-1].split(',')
+                name = data[0].removesuffix('\n')
+                notes[name] = {'text': text, 'tags': tags}
+                list_notes.addItem(name)
+            index += 1
+        except IOError:
+            break
+
 def add_note():
     note_name, ok = QInputDialog.getText(window, 'Добавить заметку', 'Название заметки: ')
     if ok and len(note_name) > 0:
@@ -182,6 +199,7 @@ list_notes.itemClicked.connect(show_note)
 
 # Запуск приложения
 notes = load_notes()
+load_notes_1()
 window.show()
 app.exec()
 # Запуск приложения
